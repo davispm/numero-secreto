@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --font-title: 'Righteous', cursive;
+    --bg-color: linear-gradient(145deg, rgba(221,230,237,1) 0%, rgb(135, 175, 206) 100%);
+    --primary-color: #27374D;
+
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.principal__titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 70px;
+    padding-bottom: 0.5em;
+}
+
+.pricipal__texto {
+    font-family: 'Righteous', cursive;
+    font-size: 34px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.box {
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin: 8px;
+}
+
+.botao {
+    padding: 1em;
+    margin-top: 2em;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--primary-color);
+    background: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.botao:hover {
+    background: var(--primary-color);
+    color: rgba(221,230,237,1);
+    transition: 500ms;
+    border: 2px solid rgba(221,230,237,1);
+    cursor: pointer;
+}
